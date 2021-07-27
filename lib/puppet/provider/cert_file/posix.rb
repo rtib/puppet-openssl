@@ -1,5 +1,5 @@
 require 'pp'
-require 'common'
+require 'puppet_x/common'
 
 Puppet::Type.type(:cert_file).provide :posix do
   confine feature: :posix
